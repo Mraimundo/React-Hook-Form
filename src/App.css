@@ -1,0 +1,54 @@
+body {
+  background: #10121f;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.delete {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add {
+  margin-bottom: 1.75rem;
+
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: 5.75rem;
+  height: 2.25rem;
+}
+
+.enviar {
+  margin-bottom: 1.75rem;
+  background: #008CBA;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  width: 80%;
+  height: 2.25rem;
+  
+}
+
